@@ -1,0 +1,64 @@
+<?php
+
+//Getting dB Configurations
+require 'config.php';
+
+//Connection Variables to the dBase_backEnd
+$connect = mysqli_connect(DB_HOST, DB_USER, DB_PASSWORD);
+
+//Making Connection and Selecting a dB
+mysqli_select_db($connect, DB_DATABASE);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//Connecting dBase_backEnd
+/**
+$connect = mysqli_connect(DB_HOST, DB_USER, DB_PASSWORD);
+
+if (!$connect)
+
+{
+    $error = 'Unable to connect to the database server.';
+
+    include 'error.html.php';
+
+    exit();
+}
+
+//Selecting dBase
+if (!mysqli_select_db($connect, 'ghc'))
+
+{
+    $error = 'Unable to locate the ghc database.';
+
+    include 'error.html.php';
+
+    exit();
+} */
